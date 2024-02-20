@@ -1,0 +1,26 @@
+.profile-button {
+	background-color: rgba(255, 255, 255, 0.1);
+	margin: 3px;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: all 0.15s linear 0.1s, box-shadow .7s linear .1s;
+	filter: none;
+}
+
+.profile-button:hover {
+	background-color: rgba(255, 255, 255, 0.168);
+	filter: drop-shadow(0px 0px 20px #ffffff);
+}
+
+.profile-box {
+	background-color: rgba(255, 255, 255, 0.25);
+	filter: drop-shadow(20px 20px 30px #ffffff);
+}
+
+.profile-avatar {
+	filter: drop-shadow(0px 0px 30px #ffffff);
+}
+
+p {
+	color: rgb(230, 230, 230);
+}

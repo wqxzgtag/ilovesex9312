@@ -1,0 +1,135 @@
+.profile-button > .tooltip {
+	text-wrap: nowrap;
+	font-size: 1.3rem;
+	padding-left: 1rem;
+}
+
+.profile-button:hover {
+	width: 29%;
+	box-shadow: 0 0 0 .04vw #fff2, 0 0 .5vw #fff9;
+}
+
+.profile-button {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	width: 12%;
+	padding: 0.75rem;
+	position: relative;
+}
+
+/* .profile-button::before {
+	content: '';
+	position: absolute;
+	background: #fff;
+	border-radius: 50%;
+	animation: followBorder .75s linear infinite;
+	z-index: -1;
+	filter: blur(1px);
+	opacity: 0;
+	transition: opacity .15s;
+	width: 100px;
+	height: 4px;
+} */
+
+.profile-button:hover::before {
+	opacity: .8;
+}
+
+.profile-b-container {
+	gap: 0rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	background: snow;
+}
+
+.profile-button:nth-child(1):hover {
+	width: 28%;
+}
+
+.profile-button:nth-child(3):hover {
+	width: 38%;
+}
+.profile-button:nth-child(3)::before {
+	animation: followBorder2 .75s linear infinite;
+}
+
+#c-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* @keyframes followBorder {
+	0%, 100% {
+		left: -40%;
+		top: 0;
+		transform: rotate(0deg);
+	}
+	40% {
+		left: 53%;
+		top: 0;
+		transform: rotate(0deg);
+	}
+	45% {
+		transform: rotate(90deg);
+	}
+	50% {
+		left: 53%;
+		top: 95%;
+		transform: rotate(90deg);
+	}
+	55% {
+		transform: rotate(180deg);
+	}
+	90% {
+		left: -40%;
+		top: 90%;
+		transform: rotate(180deg);
+	}
+	95% {
+		transform: rotate(270deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes followBorder2 {
+	0%, 100% {
+		left: -30%;
+		top: 0;
+		transform: rotate(0deg);
+	}
+	40% {
+		left: 65%;
+		top: 0;
+		transform: rotate(0deg);
+	}
+	45% {
+		transform: rotate(90deg);
+	}
+	50% {
+		left: 65%;
+		top: 95%;
+		transform: rotate(90deg);
+	}
+	55% {
+		transform: rotate(180deg);
+	}
+	90% {
+		left: -30%;
+		top: 90%;
+		transform: rotate(180deg);
+	}
+	95% {
+		transform: rotate(270deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+} */
